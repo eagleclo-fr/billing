@@ -1,0 +1,28 @@
+{
+  "name": "eaglecloud/v1",
+  "authors": [
+    {
+      "name": "Jean BROZYNA",
+      "email": "admin@eaglecloud.fr"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "src\\": "src/"
+    }
+  },
+  "require": {
+    "doctrine/migrations": "^3.0",
+    "zzantares/proxmoxve": "~4.0",
+    "phpunit/phpunit": "^9.4",
+    "psr/log": "^1.1",
+    "altorouter/altorouter": "1.2.0",
+    "php-di/php-di": "^6.3",
+    "ext-json": "*",
+    "ext-pdo": "*",
+    "ext-curl": "*",
+    "zzantares/proxmoxve": "~4.0",
+    "ext-json": "*",
+    "stripe/stripe-php": "^7.67"
+  }
+}
